@@ -1,4 +1,4 @@
-def sayHello():
-    print("Hello World!")
+def sayHello(name:str):
+    print(f"Hello {name}!")
 
-sayHello()
+sayHello("Abhinav")
